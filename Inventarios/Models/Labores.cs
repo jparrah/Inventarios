@@ -2,11 +2,10 @@
 
 namespace Inventarios.Models
 {
-    public partial class Componente
+    public partial class Labores
     {
         [Key]
         public int Id { get; set; }
-        public string Serie { get; set; }
-        public string  NombreComponente { get; set; }
+        public string NombreLabor { get; set; }
     }
 }
