@@ -6,7 +6,10 @@ namespace Inventarios.Models
     {
         [Key]
         public int Id { get; set; }
+        public int EquipoId { get; set; }
         public string Serie { get; set; }
-        public string  NombreComponente { get; set; }
+        public string  Nombre { get; set; }
+        public string Modelo { get; set; }
+        public Equipos Equipos { get; set; }
     }
 }

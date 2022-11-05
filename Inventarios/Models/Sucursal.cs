@@ -7,6 +7,7 @@ namespace Inventarios.Models
         public Sucursal()
         {
             Equipos = new HashSet<Equipos>();
+            Ordenes = new HashSet<Orden>();
         }
         [Key]
         public int Id { get; set; }
@@ -14,5 +15,6 @@ namespace Inventarios.Models
         public string NombreSucursal { get; set; }
 
         public virtual ICollection<Equipos> Equipos { get; set; }
+        public virtual  ICollection<Orden> Ordenes { get; set; }
     }
 }
