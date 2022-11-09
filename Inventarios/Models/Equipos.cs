@@ -24,7 +24,6 @@ namespace Inventarios.Models
         public TipoEquipo Medios { get; set; }
         public Sucursal Sucursal { get; set; }
         public Orden Orden { get; set; }
-        public EquiposBaja EquiposBaja { get; set; }
         public virtual ICollection<Componente> Componentes { get; set; }
 
 

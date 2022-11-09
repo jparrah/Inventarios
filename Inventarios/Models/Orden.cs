@@ -6,9 +6,9 @@ namespace Inventarios.Models
     {
         [Key]
         public int Id { get; set; }
-        public int EquipoId { get; set; }
+        public int? EquiposId { get; set; }
         public int TecnicoId { get; set; }
-        public int SucursalId { get; set; }
+        public int? SucursalId { get; set; }
         public DateTime FechaEntrada { get; set; }
         public string  Fundamento { get; set; }
         public Equipos Equipos { get; set; }

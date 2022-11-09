@@ -18,7 +18,6 @@ namespace Inventarios
         public virtual DbSet<EquiposBaja> EquiposBajas { get; set; }=null !;
         public virtual DbSet<Estado> Estados { get; set; } = null!;
         public virtual DbSet<Labores> Labores { get; set; } =null!;
-        public virtual DbSet<Meses> Meses { get; set; } =null !;
         public virtual DbSet<Orden> Ordenes { get; set; } = null!;
         public virtual DbSet<Sucursal> Sucursales { get; set; } = null!;
         public virtual DbSet<Tecnico> Tecnicos { get; set; } = null!;
